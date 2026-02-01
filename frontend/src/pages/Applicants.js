@@ -247,7 +247,7 @@ const Applicants = () => {
                           }
                         }
                         
-                        // Ensure it's an array
+                        
                         if (!Array.isArray(matches) || matches.length === 0) {
                           return null;
                         }
