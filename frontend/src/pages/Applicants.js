@@ -233,7 +233,7 @@ const Applicants = () => {
 
                       {/* AI Matches */}
                       {(() => {
-                        // Ensure ai_matches is an array
+                        
                         let matches = applicant.ai_matches;
                         if (!matches) return null;
                         
