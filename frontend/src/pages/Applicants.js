@@ -90,7 +90,7 @@ const Applicants = () => {
       setShowEmailConfirm(false);
       const response = await applicantsAPI.sendEmail(emailToSend);
       toast.success(response.data.message || 'Email sent successfully!');
-      fetchApplicants(); // Refresh to get updated data
+      fetchApplicants(); 
     } catch (error) {
       console.error('Error sending email:', error);
       toast.error(error.response?.data?.error || 'Failed to send email');
