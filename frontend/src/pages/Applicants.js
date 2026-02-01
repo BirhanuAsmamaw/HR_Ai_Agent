@@ -68,7 +68,7 @@ const Applicants = () => {
         toast.info('No applicants found that need emails sent');
       }
       
-      fetchApplicants(); // Refresh to get updated data
+      fetchApplicants(); 
     } catch (error) {
       console.error('Error sending emails to all applicants:', error);
       toast.error(error.response?.data?.error || 'Failed to send emails to all applicants');
