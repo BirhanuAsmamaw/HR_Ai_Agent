@@ -242,7 +242,7 @@ const Applicants = () => {
                           try {
                             matches = JSON.parse(matches);
                           } catch (e) {
-                            // If parsing fails, treat as single item array
+                            
                             matches = [matches];
                           }
                         }
