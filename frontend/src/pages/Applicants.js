@@ -237,7 +237,7 @@ const Applicants = () => {
                         let matches = applicant.ai_matches;
                         if (!matches) return null;
                         
-                        // If it's a string, try to parse it
+                        
                         if (typeof matches === 'string') {
                           try {
                             matches = JSON.parse(matches);
